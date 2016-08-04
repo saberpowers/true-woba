@@ -1,0 +1,10 @@
+parse.retrosheet2.pbp.r:    from Marchi and Albert (2014), defines function
+                            which allows automatic download of play-by-play
+                            data from Retrosheet. Must run this function and
+                            then move download.folder/unzipped/all2015.csv to
+                            data/all2015.csv before running regression.R or
+                            validation.r
+regression.R:   code to produce results in Section 1 of paper
+util.r:         utility function for estimating population variance
+validation.r:   code to produce results in Sections 2 and 3 of paper
+viz-rttm.r:     code to produce diagrams in slides
